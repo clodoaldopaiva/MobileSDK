@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             MobileCore.start(new AdobeCallback() {
                 @Override
                 public void call(Object o) {
-                    MobileCore.configureWithAppID("6ac3e976c146/7f57240019a9/launch-a62f46126499-staging");
+                    MobileCore.configureWithAppID("6ac3e976c146/7f57240019a9/launch-81622222f8d2");
                     UserProfile.updateUserAttribute("",null);
                 }
             });
